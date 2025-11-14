@@ -5,7 +5,7 @@ import { ChatVisibilityType } from '@repo/shared-types';
 import { join } from 'path';
 import { tmpdir } from 'os';
 import { createWriteStream } from 'fs';
-import * as archiver from 'archiver';
+import archiver from 'archiver';
 import { ExportUtil } from '@/utils/export.util';
 import fs from 'fs/promises';
 
